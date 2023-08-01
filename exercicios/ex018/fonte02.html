@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('fonts/love\ story\ ttf.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family:'Times New Roman', Times, serif
+        }
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>explicando o que entendi sobre fontes externas</h1>
+    <p>atualmente usando o css outline, devo criar um style no head do meu arquivo e antes de incluir os seletores (como body, h1 e etc...) devo criar um @font-face e inserir nele minha fonte com o mesmo nome que consta nos arquivos e também indicar com format o formato da fonte. <br> os formatos da fonte podem ser: opentype (otf) <br>truetype (ttf) <br>
+    embedded-opentype <br>
+    truetytpe-aat (Apple Advanced Typography) <br> svg <br>
+    após isso, devo nomear minha fonte em font-family. <br> <strong>ps: baixei a fonte no site dafont.com </strong></p>
+</body>
+</html>

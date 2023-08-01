@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+</head>
+<body><h1>usando links externos</h1>
+    <p>enquanto estava praticando esse exercício, eu estava ouvindo esse<a href="https://www.youtube.com/watch?v=J4t4pMZBXZg"> mix</a> do skeler.</p>
+    <p>mas eu quero que quem estiver acessando meu site permaneça nele ao clicar em um link, o link acima fecha o meu site e direciona o usuário pra página linkada. <br>
+    pra resolver isso, eu basicamente uso target="_blank" rel="external" dentro da tag a.</p>
+    <h2>direcionando ao link sem fechar meu site</h2>
+    <p>agora pode acessar o mix que eu tava ouvindo enquanto digitava isso por <a href="https://www.youtube.com/watch?v=J4t4pMZBXZg" target="_blank" rel="external">aqui</a></p>
+
+    <h1>links internos</h1>
+    <p>essa é a minha primeira página, você pode ser redirecionado para a segunda página do meu site clicando <a href="pag002.html" rel="next">aqui.</a></p>
+    <p>você também pode ir para a <a href="outra pasta/pag003.html">terceira</a> página do meu site.</p>
+
+    <h1>links para download</h1>
+    <ul>
+        <li>clique <a href="#">aqui</a> para baixar um arquivo pdf.</li>
+        <li>clique <a href="#">aqui</a> para baixar um arquivo zip.</li>
+    </ul>
+    <p>eu não coloquei nenhum arquivo de download, foi só pra exemplificar. (desculpe guanabara, eu fiquei com preguiça :(  )</p>
+
+    <h1>OBSERVAÇÕES IMPORTANTES</h1>
+    <p>quando estou me referindo a um link interno, caso seja a próxima página do meu site por exemplo <br>
+    devo adicionar rel="next" para especificar que estou direcionando-me para a próxima página. <br></p>
+    <p>caso eu esteja na segunda página e tenha um link para retornar a página 1, uso rel="prev" para <br>
+    especificar que estou voltando para a página anterior.</p>
+    <p>na terceira página do meu site, disponibilizei um link para retornar a essa página. porém... <br>
+    esta página está em outra pasta. quando quero retornar à outra pasta eu digito no href dessa forma: ../ <br>
+    dois pontos barra e então me será apresentado opções de link para adicionar.</p>
+</body>
+</html>

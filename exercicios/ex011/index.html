@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em html5</title>
+</head>
+<body><h1>imagens dinâmicas</h1>
+    <p>aprendi a redimensionar o tamanho de imagem para ser compatível de acordo com o tamanho da tela do dispositivo que acessa meu site</p>
+    
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/photo-s.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/photo-m.png" type="image/png">
+        <img src="imagens/photo-g.png" alt="imagem flexível">
+    </picture>
+    
+    <h1>reproduzindo áudio</h1>
+    <p>o formato de áudio suportado pela maioria dos navegadores são: MP3, OGG, WAV. 
+    <br>é sempre importante especificar o formato do áudio e dar preferência aos formatos que não são WAV.
+    <br>autoplay reproduzirá o áudio automaticamente, apesar de não funcionar em alguns navegadores, controls exibirá os botões de play, pause,tempo de áudio e também mixer de volume.</p>
+
+    <audio src="midia/bones-callmeback.mp3.mp3" controls autoplay></audio>
+</body>
+</html>
